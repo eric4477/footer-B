@@ -22,4 +22,69 @@ body {
   border-radius: 5px;
   background-color: #011b3e;
   display: flex;
+  flex-shrink: 0;
+}
+
+#left-container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+#links-wraper {
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+  padding: 15px;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 100%;
+  height: 50%;
+}
+#list1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 2rem;
+}
+
+#list1 a {
+  text-decoration: none;
+  color: white;
+}
+#list2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#list2 a {
+  text-decoration: none;
+  color: white;
+}
+
+#list3 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#list3 a {
+  text-decoration: none;
+  color: white;
+}
+
+#list4 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#list4 a {
+  text-decoration: none;
+  color: white;
+}
+
+#right-container {
+  width: 30%;
 }
