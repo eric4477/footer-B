@@ -1,0 +1,25 @@
+body {
+  margin: 0px;
+  height: 100vh;
+  padding-top: 12%;
+  background-color: #212e52;
+
+  display: flex;
+  align-items: center;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+#container {
+  width: 98%;
+  height: 27rem;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  background-color: #011b3e;
+  display: flex;
+}
