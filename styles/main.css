@@ -121,7 +121,7 @@ hr {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: green;
+
   display: flex;
   flex-shrink: 0;
 }
@@ -142,8 +142,8 @@ hr {
   align-items: center;
   justify-content: space-between;
   padding-top: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 #footer p {
@@ -156,4 +156,93 @@ hr {
   flex-direction: column;
   flex-shrink: 0;
   border-left: 1px solid #3e3e3e;
+}
+
+#talk {
+  background-color: rgb(219, 56, 56);
+  padding: 0px 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#phone {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background-color: white;
+}
+
+#talk p {
+  color: white;
+  font-size: 1.5rem;
+}
+
+#media {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  border-bottom: 1px solid #3e3e3e;
+  padding-top: 10px;
+}
+
+.Business {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.Business .icons {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.contact p {
+  color: white;
+  margin: 0;
+  line-height: 1.5;
+}
+
+#input {
+  padding: 0.5rem;
+  border-bottom: 1px solid #3e3e3e;
+  position: relative;
+}
+
+#input #email-input {
+  padding: 0.8rem;
+  border-radius: 20px;
+  width: 95%;
+
+  background-color: #011b3e;
+  border: 1px solid white;
+  caret-color: white;
+  color: white;
+}
+#input div {
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  position: absolute;
+  background-color: white;
+  top: 0.8rem;
+  right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#input div:hover {
+  cursor: pointer;
+}
+#input #email-input::placeholder {
+  color: rgb(150, 146, 146);
 }
