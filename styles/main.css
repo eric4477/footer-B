@@ -214,30 +214,31 @@ hr {
 #input {
   padding: 0.5rem;
   border-bottom: 1px solid #3e3e3e;
+}
+#input .wrapper {
+  width: 95%;
   position: relative;
 }
-
 #input #email-input {
   padding: 0.8rem;
   border-radius: 20px;
-  width: 95%;
-
+  width: 100%;
   background-color: #011b3e;
   border: 1px solid white;
   caret-color: white;
   color: white;
 }
-#input div {
-  width: 2.2rem;
-  height: 2.2rem;
+
+#input #email-icon {
+  width: 2.3rem;
+  height: 2.3rem;
   border-radius: 50%;
   position: absolute;
-  background-color: white;
-  top: 0.8rem;
-  right: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: black;
+  top: 4px;
+  right: 3px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 #input div:hover {
@@ -245,4 +246,35 @@ hr {
 }
 #input #email-input::placeholder {
   color: rgb(150, 146, 146);
+}
+
+#media-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  height: 100%;
+}
+
+#linkedln {
+  margin-top: 2px;
+}
+
+@media (max-width: 940px) {
+  #media p {
+    display: none;
+  }
+}
+
+@media (max-width: 680px) {
+  #email-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 610px) {
+  #talk p {
+    display: none;
+  }
 }
